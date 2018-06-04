@@ -1,0 +1,26 @@
+{
+  "1": {
+    "first_name": "DUDZIAK",
+    "last_name": "Yannick",
+    "username": "Owlympus",
+    "email": "yannick@sg-autorepondeur.com",
+    "birth_date": "1992-02-05",
+    "subscription": "2018-06-04 16:30:07"
+  },
+  "2": {
+    "first_name": "PRUGNA",
+    "last_name": "Pascal",
+    "username": "PulsarFox",
+    "email": "pascal@sg-autorepondeur.com",
+    "birth_date": "1994-06-20",
+    "subscription": "2018-06-04 17:10:25"
+  },
+  "3": {
+    "first_name": "GOURRIER",
+    "last_name": "Sébastien",
+    "username": "Sebek",
+    "email": "sebastien@sg-autorepondeur.com",
+    "birth_date": "1986-09-20",
+    "subscription": "2018-06-04 17:10:25"
+  }
+}
