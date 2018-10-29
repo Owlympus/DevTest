@@ -47,13 +47,14 @@ __[ Facultatif ] Partie 2 :__
 | [first_letter]    |   Première lettre de la chaine de caractère   |
 | [shorted_url]     |   URL raccourcie (Ne récupère que le protocole et le nom de domaine. Ex: https://sg-autorepondeur.com)|
 | [format]          |   Formate une date                            |
-| [if]              |   Condition IF                                |
+| [if] ... [endif]  |   Condition IF                                |
 
 **Exercice 3**
 
 Contexte : 
-> Vous souhaitez récupérer des prospects qui visitent votre site web. Pour cela, vous allez avoir besoin d'un formulaire HTML qui enverra les données vers une page d'inscription.
+> Vous souhaitez récupérer des prospects qui visitent votre site web. Vous voulez récupérer prénom, nom et adresse email. Pour cela, vous allez avoir besoin d'un formulaire HTML qui enverra les données vers une page d'inscription.
 
 __Partie 1 :__
 - Dossier `./Exo_2`
-- 
+- Utiliser la page `./formulaire.html` pour construire le formulaire.
+- Utiliser la page `./data.php` pour récupérer les informations.
