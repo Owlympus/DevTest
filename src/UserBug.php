@@ -1,8 +1,7 @@
 <?php
 
-class User
+class UserBug implements iTruc
 {
-    use Entity;
 
     protected
 
@@ -43,7 +42,7 @@ class User
     ;
 
     /**
-     * @return integer
+     * @return mixed
      */
     public function getId()
     {
@@ -51,49 +50,43 @@ class User
     }
 
     /**
-     * @param integer $id
-     * @return User
+     * @param mixed $id
      */
     public function setId($id)
     {
         $this->id = $id;
-        return $this;
     }
 
     /**
-     * @return string
+     * @return mixed
      */
     public function getFirstName()
     {
-        return $this->first_name;
+        return $this->id;
     }
 
     /**
-     * @param string $first_name
-     * @return User
+     * @param mixed $first_name
      */
     public function setFirstName($first_name)
     {
         $this->first_name = $first_name;
-        return $this;
     }
 
     /**
-     * @return string
+     * @return mixed
      */
     public function getLastName()
     {
-        return $this->last_name;
+        return $this->id;
     }
 
     /**
-     * @param string $last_name
-     * @return User
+     * @param mixed $last_name
      */
     public function setLastName($last_name)
     {
         $this->last_name = $last_name;
-        return $this;
     }
 
     /**
@@ -101,72 +94,64 @@ class User
      */
     public function getUsername()
     {
-        return $this->username;
+        return $this->id;
     }
 
     /**
      * @param mixed $username
-     * @return User
      */
     public function setUsername($username)
     {
         $this->username = $username;
-
-        return $this;
     }
 
     /**
-     * @return string
+     * @return mixed
      */
     public function getEmail()
     {
-        return $this->email;
+        return $this->id;
     }
 
     /**
-     * @param string $email
-     * @return User
+     * @param mixed $email
      */
     public function setEmail($email)
     {
         $this->email = $email;
-        return $this;
     }
 
     /**
-     * @return DateTime
-     */
-    public function getSubscription()
-    {
-        return $this->subscription;
-    }
-
-    /**
-     * @param DateTime $subscription
-     * @return User
-     */
-    public function setSubscription( DateTime $subscription)
-    {
-        $this->subscription = $subscription;
-        return $this;
-    }
-
-    /**
-     * @return DateTime
+     * @return mixed
      */
     public function getBirthDate()
     {
-        return $this->birth_date;
+        return $this->id;
     }
 
     /**
-     * @param DateTime $birth_date
-     * @return User
+     * @param mixed $birth_date
      */
-    public function setBirthDate( DateTime $birth_date)
+    public function setBirthDate($birth_date)
     {
         $this->birth_date = $birth_date;
-        return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSubscription()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $subscription
+     */
+    public function setSubscription($subscription)
+    {
+        $this->subscription = $subscription;
+    }
+
 
 }
